@@ -445,7 +445,14 @@ b, strong {
   justify-content: center;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 425px) {
+  .animated{
+    display: flex;
+    flex-direction: column;
+  }
+  .animated-info{
+    margin: 15px 0;
+  }
   .owl-carousel .item .info .stacks{
     align-items: center;
     flex-wrap: wrap;
@@ -457,6 +464,11 @@ b, strong {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .animated-info .animated-item{
+    font-size: 40px;
+  }
+}
 
 .google-map iframe {
   width: 100%;
