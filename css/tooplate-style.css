@@ -453,6 +453,9 @@ b, strong {
   .animated-info{
     margin: 15px 0;
   }
+  .animated-info .animated-item{
+    font-size: 30px;
+  }
   .owl-carousel .item .info .stacks{
     align-items: center;
     flex-wrap: wrap;
@@ -464,9 +467,10 @@ b, strong {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .animated-info .animated-item{
     font-size: 40px;
+
   }
 }
 
