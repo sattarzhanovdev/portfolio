@@ -428,7 +428,7 @@ b, strong {
 }
 
 .owl-carousel .item .info{
-  margin: 50px 0;
+  margin: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -437,6 +437,7 @@ b, strong {
 .owl-carousel .item .info .stacks{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 
@@ -547,10 +548,10 @@ b, strong {
 }
 @media (max-width: 580px) {
 	.animated-info {
-		min-width: 350px;
+		min-width: 200px;
 	}
   .animated-item {
-    font-size: 10px;
+    font-size: 30px;
   }
 
   .custom-btn-group {
