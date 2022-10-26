@@ -119,6 +119,12 @@ b, strong {
   color: #ffc200;
 }
 
+@media screen and (max-width: 768px) {
+  .animated-item {
+    font-size: 15px;
+  }
+}
+
 .animated-item {
   font-size: 38px;
   line-height: inherit;
