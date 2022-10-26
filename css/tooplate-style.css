@@ -119,9 +119,9 @@ b, strong {
   color: #ffc200;
 }
 
-@media screen and (min-width: 768px) {
-  .animated-item {
-    font-size: 15px;
+@media screen and (max-width: 768px) {
+  .animated-info .animated-item {
+    font-size: 22px;
   }
 }
 
@@ -443,7 +443,18 @@ b, strong {
 .owl-carousel .item .info .stacks{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 760px) {
+  .owl-carousel .item .info .stacks{
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .owl-carousel .item .info .stacks img{
+    width: auto;
+    height: auto;
+  }
 }
 
 
