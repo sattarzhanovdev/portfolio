@@ -547,7 +547,7 @@ b, strong {
 }
 @media (max-width: 580px) {
 	.animated-info {
-		min-width: 200px;
+		min-width: 350px;
 	}
   .animated-item {
     font-size: 30px;
